@@ -1,13 +1,13 @@
 {
-  "TodoType":{
-    "Title": "string",
-    "Todos": "Todo[]"
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
   },
-  "Todo": {
-    "Title": "string",
-    "TodoType": "TodoType",
-    "TodoDate": "date",
-    "IsImportant": "boolean",
-    "CreatedOn": "date"
+  "Comment": {
+    "body": "string",
+    "post": "Post"
   }
 }
