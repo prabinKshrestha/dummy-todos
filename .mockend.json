@@ -1,6 +1,5 @@
 {
   "Todo": {
-    "TodoId": "int",
     "Title": "string",
     "Status": "int",
     "TodoDate": "date",
