@@ -1,7 +1,11 @@
 {
+  "TodoType":{
+    "Title": "string",
+    "Todos": "Todo[]"
+  },
   "Todo": {
     "Title": "string",
-    "Status": "int",
+    "TodoType": "TodoType",
     "TodoDate": "date",
     "IsImportant": "boolean",
     "CreatedOn": "date"
